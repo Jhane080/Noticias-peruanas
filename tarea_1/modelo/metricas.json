@@ -1,0 +1,9 @@
+{
+  "f1_macro_test": 0.844,
+  "accuracy_test": 0.845,
+  "f1_zero_shot_40": 0.591,
+  "acuerdo_llm_humano": "20/20",
+  "porcentaje_acuerdo": 100.0,
+  "noticias_test": 58,
+  "modelo_llm": "gemini-3.5-flash-lite"
+}
