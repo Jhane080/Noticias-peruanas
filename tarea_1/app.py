@@ -74,11 +74,11 @@ conteo.columns = ["categoria", "noticias"]
 grafico = px.bar(conteo, x="categoria", y="noticias", text="noticias", color="categoria",
                  labels={"categoria": "Categoría", "noticias": "Número de noticias"})
 grafico.update_layout(showlegend=False)
-st.plotly_chart(grafico, use_container_width=True)
+st.plotly_chart(grafico, width="stretch")
 
 st.subheader("Noticias")
 columnas_tabla = ["fecha", "etiqueta", "titular", "bajada", "seccion_original", "url"]
-st.dataframe(noticias_filtradas[columnas_tabla], use_container_width=True, hide_index=True)
+st.dataframe(noticias_filtradas[columnas_tabla], width="stretch", hide_index=True)
 st.download_button(
     "Descargar CSV filtrado",
     noticias_filtradas.to_csv(index=False).encode("utf-8"),
@@ -106,4 +106,4 @@ if st.button("Clasificar", type="primary"):
             probabilidades, x="probabilidad", y="categoria", orientation="h",
             range_x=[0, 1], text_auto=".1%", labels={"probabilidad": "Probabilidad", "categoria": ""},
         )
-        st.plotly_chart(grafico_probabilidades, use_container_width=True)
+        st.plotly_chart(grafico_probabilidades, width="stretch")

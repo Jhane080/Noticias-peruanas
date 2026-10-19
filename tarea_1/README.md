@@ -85,7 +85,7 @@ jupyter nbconvert --to notebook --execute --inplace 01_recoleccion.ipynb
 jupyter nbconvert --to notebook --execute --inplace 02_clasificacion.ipynb
 
 # 4. Levantar el dashboard
-streamlit run app.py
+streamlit run app.py          # la primera carga tarda ~1 minuto (importa transformers)
 ```
 
 Los pesos del modelo (`modelo/model.safetensors`, ~540 MB) **no están en GitHub** porque superan
