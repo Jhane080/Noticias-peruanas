@@ -1,0 +1,14 @@
+# Clave de la API de Gemini: nunca se sube
+.env
+
+# Pesos del modelo (pesan cientos de MB; GitHub rechaza > 100 MB)
+modelo/*.safetensors
+modelo/*.bin
+modelo/*.pt
+modelo/checkpoint-*/
+modelo/entrenamiento/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
