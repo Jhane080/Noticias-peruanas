@@ -1,0 +1,8 @@
+[HABLANTE_1] ¿A qué hora cierra el mercado de flores?
+[HABLANTE_2] La granizada destruyó toda plantación de lechuga
+[HABLANTE_1] Las tejas rojas del tejado no son de México, son de Texas
+[HABLANTE_2] Ayer llovió mucho, y llegue tarde a mi reunión
+[HABLANTE_1] ¿Usted está interesado en las olimpiadas o en en el mundial de gimnasia que mencionó después?
+[HABLANTE_2] ¿Porqué dicen que la sal no es saludable?
+[HABLANTE_1] Mi sobrino me está volviendo loca con estas cosas de las redes sociales
+[HABLANTE_2] ¿Que lugares románticos hay por aquí?
