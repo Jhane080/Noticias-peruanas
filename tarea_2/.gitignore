@@ -1,0 +1,18 @@
+# Clave de la API de Gemini: nunca se sube
+.env
+
+# Corpus original, salidas pesadas del OCR/ASR y recortes (se recuperan con descargar.py y procesar.py)
+datos/raw/
+# metadatos crudos de Commons: las descripciones traen nombres de personas entrevistadas
+datos/fuentes_crudas.csv
+
+# Pesos de modelos (GitHub rechaza archivos > 100 MB)
+modelos/*.safetensors
+modelos/*.bin
+modelos/*.pt
+modelos/checkpoint-*/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/

@@ -1,0 +1,27 @@
+# Para correr los notebooks y los scripts (Python 3.12, Windows, CPU):
+#   uv venv --python 3.12 .venv
+#   uv pip install --python .venv\Scripts\python.exe -r requirements-notebooks.txt
+# En Windows hay que importar torch antes que paddle (procesar.py ya lo hace).
+torch==2.14.1
+paddlepaddle==3.2.2
+paddleocr==3.7.0
+easyocr==1.7.2
+faster-whisper==1.2.1
+av<19
+pyannote.audio==4.0.7
+transformers==5.20.2
+jiwer
+rapidfuzz
+soundfile
+scipy
+scikit-learn
+librosa
+pandas==3.1.0
+plotly==7.1.0
+kaleido
+google-genai
+pydantic
+python-dotenv
+streamlit==1.66.1
+ipykernel
+nbconvert
