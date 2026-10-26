@@ -143,7 +143,7 @@ REEMPLAZOS_DIFUSOS = {
 REEMPLAZOS_EXACTOS = {
     "Elena": "[PERSONA_1]", "Isabel": "[PERSONA_2]", "Elsa": "[PERSONA_3]", "Aurora": "[PERSONA_4]",
     "Luis": "[PERSONA_6]", "Alex": "[PERSONA_7]", "Carlos": "[PERSONA_8]", "Edgar": "[PERSONA_9]",
-    "Jorge": "[ENTREVISTADOR]", "Jean Pierre": "[ENTREVISTADOR_2]", "Ampir": "[ENTREVISTADOR_2]",
+    "Jorge": "[ENTREVISTADOR]", "Jean Pierre": "[ENTREVISTADOR_2]", "Jeanpiere": "[ENTREVISTADOR_2]", "Ampir": "[ENTREVISTADOR_2]",
 }
 
 

@@ -1,0 +1,52 @@
+{
+  "cer_paddle": 0.06,
+  "cer_easyocr": 0.171,
+  "wer_small": 0.212,
+  "wer_parakeet": 0.189,
+  "acuerdo_llm_humano": "0/20",
+  "porcentaje_acuerdo": 0.0,
+  "modelo_llm": "gemini-3.5-flash-lite",
+  "cer_por_tipo": [
+    {
+      "tipo": "foto",
+      "documentos": 4,
+      "CER PaddleOCR": 0.087,
+      "CER EasyOCR": 0.237
+    },
+    {
+      "tipo": "impreso",
+      "documentos": 3,
+      "CER PaddleOCR": 0.015,
+      "CER EasyOCR": 0.104
+    },
+    {
+      "tipo": "manuscrito",
+      "documentos": 3,
+      "CER PaddleOCR": 0.446,
+      "CER EasyOCR": 0.651
+    }
+  ],
+  "wer_por_condicion": [
+    {
+      "condicion": "dos voces alternadas (OpenSLR)",
+      "clips": 1,
+      "minutos": 1.062,
+      "WER faster-whisper small": 0.063,
+      "WER Parakeet v3": 0.051
+    },
+    {
+      "condicion": "entrevista real (Commons)",
+      "clips": 3,
+      "minutos": 3.392,
+      "WER faster-whisper small": 0.308,
+      "WER Parakeet v3": 0.292
+    },
+    {
+      "condicion": "leído en estudio (OpenSLR)",
+      "clips": 6,
+      "minutos": 2.828,
+      "WER faster-whisper small": 0.07,
+      "WER Parakeet v3": 0.029
+    }
+  ]
+}
