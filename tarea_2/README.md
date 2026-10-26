@@ -2,7 +2,7 @@
 
 **Pregunta:** ¿podemos convertir documentos escaneados y entrevistas en audio en un archivo de texto estructurado y buscable?
 
-**Dashboard público:** _(pendiente: se agrega al publicar en Streamlit Community Cloud)_
+**Dashboard público:** https://voces-documentos-jhanela.streamlit.app/
 
 **Respuesta corta:** sí para impresos, fotos legibles y audio en condiciones normales (CER 0,02–0,07; WER 0,03–0,07), con revisión humana ligera. Todavía no para manuscritos coloniales (CER 0,45) ni para entrevistas con ruido de calle (WER ~0,30).
 
