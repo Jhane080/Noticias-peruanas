@@ -1,17 +1,17 @@
 {
-  "cer_paddle": 0.06,
-  "cer_easyocr": 0.171,
+  "cer_paddle": 0.056,
+  "cer_easyocr": 0.168,
   "wer_small": 0.212,
   "wer_parakeet": 0.189,
-  "acuerdo_llm_humano": "0/20",
-  "porcentaje_acuerdo": 0.0,
+  "acuerdo_llm_humano": "15/20",
+  "porcentaje_acuerdo": 75.0,
   "modelo_llm": "gemini-3.5-flash-lite",
   "cer_por_tipo": [
     {
       "tipo": "foto",
       "documentos": 4,
-      "CER PaddleOCR": 0.087,
-      "CER EasyOCR": 0.237
+      "CER PaddleOCR": 0.067,
+      "CER EasyOCR": 0.226
     },
     {
       "tipo": "impreso",
